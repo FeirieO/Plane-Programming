@@ -28,7 +28,6 @@ public class PlayerLife : MonoBehaviour
 
     void Die()
     {
-
         Invoke(nameof(ReloadLevel), 1.2f);
         death = true;
         Debug.Log("E touch am");
